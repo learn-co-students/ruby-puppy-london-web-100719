@@ -29,8 +29,3 @@ class Dog
         @@all << self
     end
 end
-
-daisy = Dog.new("Daisy")
-poppy = Dog.new("Poppy")
-lilly = Dog.new("Lilly")
-Dog.print_all
