@@ -1,5 +1,4 @@
 class Dog
-
     attr_accessor :name
 
     @@all = []
@@ -18,12 +17,13 @@ class Dog
     end
 
     def self.print_all
-        @@all.each do |i|
-            puts "#{i.name}"
+        @@all.each do |dog_instance|
+            puts "#{dog_instance.name}"
         end
     end
 
     def save
         @@all << self
     end
+
 end
